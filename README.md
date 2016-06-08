@@ -1,2 +1,1 @@
-/// Test
-# luxyachts
+# LuxYachts style guide
