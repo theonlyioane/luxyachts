@@ -1,0 +1,290 @@
+/*******************************************
+GLOBAL RESETS
+/*******************************************/
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+.row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.push {
+	right: 15px;
+}
+
+/*******************************************
+MAIN NAVIGATION
+/*******************************************/
+.navbar {
+	height: 60px;
+	background-color: #fff;
+	margin-top: -1px;
+	margin-bottom: 0px;
+	border-bottom: 1px solid #e3e3e3;
+	z-index: 999;
+} 
+.navbar-brand img {
+	margin-top: -5px;
+}
+.navbar li {
+	border-left: 1px solid #e3e3e3;
+}
+.navbar li a{
+	color: #484848;
+	height: 60px;
+	padding-top: 20px;
+}
+.navbar li a:hover{
+	border-bottom: 4px solid #484848
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>li:focus, .navbar-default .navbar-nav>.active>a:hover {
+	border-bottom: 4px solid #0372bc;
+	background-color: #fff;
+	color: #025b96;
+}
+.desktop button{
+	height: 60px;
+	width: 60px;
+	background-color: #0372bc;
+	margin-right: -16px;
+	border:none;
+	float: right;
+}
+.navbar button i {
+	color: #fff;
+}
+
+/*******************************************
+LEFT NAV STYLES
+/*******************************************/
+.leftBar {
+	height: auto;
+}
+
+/*BADGE STYLES*/
+.badgeProfile {
+	height: 112px;
+	width: 100%;
+}
+.badgeImage{
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	z-index: 5;
+}
+.badgeInformation {
+	float: left;
+	margin-left: 20px;
+}
+h3 {
+	font-size: 24px;
+	color: #484848;
+	margin-bottom: 2px;
+}
+.badgeInformation  p {
+	font-size: 14px;
+	color: #484848;
+	margin-bottom: 3px;
+}
+.badgeInformation p span {
+	opacity: .6;
+}
+
+/*USER BADGE STYLES*/
+.userBadge {
+	z-index: 2;
+    position: absolute;
+    margin-top: 52px;
+}
+
+/*PROFILE SUBNAV*/
+.profileNav button {
+	border-radius: 0 !important;
+	height: 60px;
+	font-size: 12px;
+	margin-bottom: 20px;
+	border-color:#e3e3e3;
+}
+.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default{
+	background-color: #0372bc;
+	border:#0372bc;
+	color: #fff;
+}
+.btn-default span{
+	color: #0372bc;
+}
+
+/*SECTION SUBNAV*/
+.nav-justified{
+	padding: 0px 20px;
+}
+.nav-justified .disabled {
+	background-color: #f7f7f7;
+}
+.navLine {
+	width: 100%;
+	border-bottom: 1px solid #e3e3e3;
+	margin-top: -1px;
+	margin-bottom: 20px;
+}
+.nav-tabs.nav-justified>li>a {
+   border: 1px solid #ddd;
+}
+
+/*RESUME SECTIONS*/
+.resumeSection {
+	padding: 0px 20px;
+}
+.resumeSection .resumeBtn {
+	margin-bottom: 20px;
+	height: 76px;
+	width: 100%;
+	border: 1px solid #e3e3e3;
+	background-color: #fff;
+	padding: 0px 10px;
+}
+.resumeBtn.push {
+	padding-left: 92px;
+}
+.resumeLine.inactive{
+	opacity: .25;
+}
+.resumeSection .resumeBtn p {
+	float: left;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+.resumeLine {
+	width: 100%;
+	height: 7px;
+	background-color: #ccd2dc;
+	border-radius: 2px;
+	margin-bottom: 5px;
+	float: left;
+}
+span .resumeLine {
+	width: 80%;
+}
+.resumeAlert {
+	float: right;
+}
+.resumePhoto {
+	float: left;
+	position: absolute;
+	height: 76px;
+	width: 76px;
+	padding: 0px;
+}
+.resumePhoto img {
+	margin-left: -1px;
+}
+.resumePhoto.upload i{
+	float: right;
+	margin-right: 12px;
+    margin-top: 7px;
+    color: #fff;
+}
+.addPhoto {
+	margin-top: 12px;
+}
+.complete i{
+	color: #34a853;
+}
+.incomplete i{
+	color: #e3e3e3;
+}
+.attention i{
+	color: #ea4335;
+}
+
+/*******************************************
+BUTTON STYLES FOR CONTENT PAGES
+/*******************************************/
+.wrapper{
+	padding: 20px 20px 0px 20px;
+	border-left: 1px solid #e3e3e3;
+}
+.contentContainer {
+	height: auto;
+    background: #fff;
+    border: 1px solid #e3e3e3;
+    padding: 20px;
+}
+.col-md-8	{
+	background-color: #f7f7f7;
+	height: auto;
+	padding-bottom: 20px;
+}
+h6 {
+	color: #484848;
+	opacity: .6;
+}
+.btn-default {
+	border: 1px solid #e3e3e3;
+}
+.btn-primary {
+	background-color: #0372bc;
+}
+.btn.btn-secondary {
+	background:none;
+	border: 1px solid #0372bc;
+	color: #0372bc;
+}
+.btn-secondary:hover {
+	background-color: #0372bc;
+	color: #fff;
+}
+.btn-link {
+	color:#0372bc;
+}
+.buttonWidth {
+	width: 100%;
+}
+.r-margin-20 {
+	margin-right: 20px;
+}
+/*******************************************
+MEDIA QUERIES
+/*******************************************/
+@media only screen and (max-width: 990px) {
+    .contentHide {
+    display: none;
+    }
+    .navbar-toggle {
+	margin: 0px;
+    }
+    .navbar-default .navbar-toggle .icon-bar{
+	background-color: #fff;
+	margin-left: 9px;
+    }
+    .navbar button{
+	height: 60px;
+	width: 60px;
+	background-color: #0372bc;
+	border:none;
+	border-radius: 0px;
+	float: right;
+	}
+	.navbar button:hover{
+    background-color: #025b96;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .mask {
+        display: none;
+    }
+    .navbar li {
+	background: #fff;
+	}
+}
