@@ -22,12 +22,14 @@ body {
 .push {
 	right: 15px;
 }
-
-.margin-top-30 {
-	margin-top: 30px;
-}
 .margin-right-20 {
 	margin-right: 20px;
+}
+.btnWrapper {
+	padding: 0px 20px;
+}
+.desktopHide {
+	display: none;
 }
 /*******************************************
 MAIN NAVIGATION
@@ -213,7 +215,6 @@ span .resumeLine {
 .attention i{
 	color: #ea4335;
 }
-
 /*******************************************
 BUTTON STYLES FOR CONTENT PAGES
 /*******************************************/
@@ -287,9 +288,9 @@ MEDIA QUERIES
     }
 }
 @media only screen and (max-width: 768px) {
-    .mask {
-        display: none;
-    }
+	.desktopHide {
+		display: inline;
+	}
     .navbar li {
 	background: #fff;
 	}
@@ -301,20 +302,35 @@ MEDIA QUERIES
     width: 1%;
   	}
  	.nav-justified > li > a  {
-    border-bottom: 1px solid #ddd !important;
+    border-bottom: 1px solid #fff !important;
     border-radius: 4px 4px 0 0 !important;
     margin-bottom: 0 !important;
   	}
   	.mobileHide {
-  		display: none;
+	display: none;
+  	}
+  	.resumeSection {
+  	padding: 0px;
   	}
   	.resumeSection .resumeBtn {
-  		margin-bottom: -30px;
-  		padding: 0px;
+	margin-bottom: -30px;
+	padding: 0px;
   	}
-  	.resumeBtn p {
-  		font-size: 18px;
+  	.resumeSection .resumeBtn p {
+  	font-size: 18px;
+  	float: left;
+    margin-bottom: 10px;
+    margin-top: 8px;
+    margin-left: 55px;
   	}
+  	.resumeBtn .fa{
+    font-size: 1.8em !important;
+    margin-left: 20px;
+    margin-top: 8px;
+	}
+	.btnWrapper.mobile.margin-top-20 {
+	margin-top: 20px;
+	}
 }
 
 
